@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>black jacket</title>
+    <script src="index.js" defer></script>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>BLACK JACKET</h2>
+    <h3>RULES:</h3>
+    <ol type="1">
+        <li>when you got sum of cards 21 ,you win this game!</li>
+        <li>If the sum is less than 21 you have to draw one more card.</li>
+        <li>If the sum is more than 21,oops!you lost the game!</li>
+    </ol>
+    <div id="game">
+    <h2 id="cards">want to play this game ?</h2>
+    <p id="cardsel">CARDS:</p>
+    <p id="sumel">SUM:</p>
+    </div>
+    <div id="btn">
+    <button id="btn" onclick="startgame()">START GAME</button>
+    
+    <button id="btn" onclick="puthucard()">NEW CARD</button>
+    
+    <button onclick="restart()">RESTART</button>
+    </div>
+</body>
+</html>
