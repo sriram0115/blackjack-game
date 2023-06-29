@@ -10,11 +10,13 @@
 <body>
     <h2>BLACK JACKET</h2>
     <h3>RULES:</h3>
-    <ol type="1">
+    <div>
+    <ul >
         <li>when you got sum of cards 21 ,you win this game!</li>
         <li>If the sum is less than 21 you have to draw one more card.</li>
         <li>If the sum is more than 21,oops!you lost the game!</li>
-    </ol>
+    </ul>
+   </div>
     <div id="game">
     <h2 id="cards">want to play this game ?</h2>
     <p id="cardsel">CARDS:</p>
@@ -25,7 +27,7 @@
     
     <button id="btn" onclick="puthucard()">NEW CARD</button>
     
-    <button onclick="restart()">RESTART</button>
+    <button id="rst-btn" onclick="remove()">RESTART</button>
     </div>
 </body>
 </html>

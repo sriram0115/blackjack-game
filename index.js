@@ -8,6 +8,19 @@ let cardsEl =document.getElementById("cardsel")
 let sumEl=document.getElementById("sumel")
 let isalive=true
 let blackjack=false
+let rstbtn=document.getElementById("rst-btn")
+function remove(){
+    window.location.reload()
+}
+
+
+
+    
+    
+    
+
+    
+
 function startgame(){
     
     
@@ -44,8 +57,7 @@ function puthucard(){
 }
 function getrandomcard(){
     return Math.floor(Math.random()*13)+1
-}
+} 
 
-   
 
 
